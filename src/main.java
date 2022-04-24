@@ -1,5 +1,10 @@
+import java.util.Random;
+
 public class main {
     public static void main(String[] args){
+        Random random = new Random();
+        int r = random.nextInt(5);
+        printDice(r+1);
     }
     public static void printDice(int number){
         switch(number){
